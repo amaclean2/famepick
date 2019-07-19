@@ -14,12 +14,9 @@ do not hesitate to email dev@famepick.com.
 
 ## Coding Challenge
 
-The coding challenge revolves around building a todo list. Tasks belong to groups and can have
+The coding challenge revolves around building a todo list on React. Tasks belong to groups and can have
 dependencies on one another (i.e. if task X depends on task Y & Z, task X cannot be completed until
-task Y & Task Z are completed). The challenge includes 2 components:
-
-* Build frontend logic and React-based UI 
-* Design data model for the database
+task Y & Task Z are completed).
 
 ### Build React UI
 
@@ -47,13 +44,6 @@ Some things to keep in mind:
 * **Please don't introduce any new dependencies**, React and javaScript should have everything you need natively to complete
   the challenge
 * We value well structured code and clean coding style that follows best practices
-
-### Design Database Model
-
-* Design the schema of data model in noSQL DB to store the task data and the task dependency data. 
-* The data model should be in favor of the following operations: Create Task, Get Task List, Update Task Status... 
-* Please see the *dbSchemaExample.json* as 
-example, and do not hesitate to create one or more table if you think it is necessary, you can create another json file name *{tableName}.json*.
 
 ## Getting Started
 
