@@ -6,7 +6,7 @@ Thanks for your interest in Famepick! Before we proceed to on-site interviews, w
 a foundational piece of our process and it's referenced later in our process during the technical 
 interviews.
 
-For an experienced web developer, the coding challenge should take around 2 hours to 
+For an experienced software engineer, the coding challenge should take around 90 mins to 
 complete.
 
 If at any point you have questions concerning the coding challenge and/or interview process, please
@@ -23,7 +23,7 @@ task Y & Task Z are completed).
 The UI consists of 2 screens:
 
 * **Overview Screen**: Displays a list of all the task groups along with their completion status. Clicking on 
-  a group should render the detail screen. Please add a RESET button at the bottom of the view, so everyone can test the app without reloading
+  a group should render the detail screen. Please add a **RESET** button at the bottom of this view, so everyone can test the app without reloading
 
 * **Detail Screen**: Displays a list of all the tasks in the selected group and allows the user to Toggle 
   the completion status of unlocked tasks.
@@ -39,9 +39,9 @@ also live in _public/_ and can be loaded similarly.
 Some things to keep in mind:
 
 * Locked tasks cannot have their completion status toggled
-* Tasks remain locked until all of their dependencies have been completed
+* Tasks remain locked until **all of their dependencies** have been completed
 * Your implementation should resemble the above UI designs and have high UI fidelity.
-* **Please don't introduce any new dependencies**, React and javaScript should have everything you need natively to complete
+* **Please don't introduce any new dependencies**, React and JavaScript should have everything you need natively to complete
   the challenge
 * We value well structured code and clean coding style that follows best practices
 
@@ -57,14 +57,19 @@ npm start
 At this point, the app should be running in development mode and any local modifications you make
 will be automatically detected and result in the app to reload.
 
-You should only need to add/modify code in the _src/_ directory.
+You should only need to **add/modify** code in the _src/_ directory.
 
 ## Submission
 
-To submit your coding challenge, remove the node_modules and zip the whole directory, then name the zip file to your first and last name.
+To submit your coding challenge:
+1. Commit your code to **master** branch 
+2. Bundle the code and name the bundle file to your first and last name using git cmd
 
+````
+git bundle create {firstName}-{lastName}.bundle HEAD master
+````
 
-Email the zip file to jay@famepick.com. We will do our 
+Email the bundle file to jay@famepick.com with the subject line "_Famepick SWE Code Challenge_". We will do our 
 best to review and respond to submissions within 1-2 business days.
 
 Happy Coding!
