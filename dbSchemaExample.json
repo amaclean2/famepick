@@ -1,0 +1,47 @@
+{
+    "description": "This is an example of the syntax of the schema, ",
+    "required": [
+        "id",
+        "myName",
+        "yourAge"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "yourAge": {
+            "type": "number"
+        },
+        "yourName": {
+            "type": "string"
+        },
+        "myName": {
+            "type": "string"
+        },
+        "myAge": {
+            "type": "number"
+        },
+        "myFriends": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": "string"
+                }
+            }
+        },
+        "yourFriends": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "active": {
+            "type": "boolean"
+        },
+        "status": {
+            "type": "string",
+            "enum": ["todo", "inProgress", "testing", "done"]
+        }
+    }
+}
