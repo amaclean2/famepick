@@ -1,0 +1,46 @@
+button {
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    color: #295586
+}
+
+button:hover {
+    background-color: rgba(0,0,0,0.3)
+}
+
+.todo-group, .todo {
+    padding: 10px 5px;
+    border-bottom: 1px solid #DDD;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    font-size: 12px;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 15px;
+    color: #222;
+    text-transform: initial;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.todo-group:hover, .todo:hover {
+    background-color: #F6F6F6;
+}
+
+.group-meta {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.todo-group img, .todo img {
+    margin-right: 15px;
+}
